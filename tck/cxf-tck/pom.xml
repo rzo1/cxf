@@ -35,7 +35,7 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <cxf.version>4.2.0-SNAPSHOT</cxf.version>
+        <cxf.version>4.2.0-tomee-m0-ce15546</cxf.version>
         <glassfish.container.version>7.0.16</glassfish.container.version>
         <glassfish.home>${project.build.directory}/glassfish7</glassfish.home>
         <jakarta.platform.version>11.0.0</jakarta.platform.version>

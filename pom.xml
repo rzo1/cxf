@@ -21,11 +21,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf</artifactId>
-    <version>4.2.0-SNAPSHOT</version>
+    <version>4.2.0-tomee-m0-ce15546</version>
     <name>Apache CXF</name>
-    <description>Apache CXF is an open-source services framework that aids in 
-    the development of services using front-end programming APIs, like JAX-WS 
-    and JAX-RS.</description>
+    <description>Apache CXF is an open-source services framework that aids in
+        the development of services using front-end programming APIs, like JAX-WS
+        and JAX-RS.</description>
     <url>https://cxf.apache.org</url>
     <packaging>pom</packaging>
     <scm>
@@ -40,8 +40,8 @@
     </issueManagement>
     <properties>
         <cxf.compiler.fork>false</cxf.compiler.fork>
-        <cxf.build-utils.version>4.1.2-SNAPSHOT</cxf.build-utils.version>
-        <cxf.xjc-utils.version>4.1.1-SNAPSHOT</cxf.xjc-utils.version>
+        <cxf.build-utils.version>4.1.2</cxf.build-utils.version>
+        <cxf.xjc-utils.version>4.1.0</cxf.xjc-utils.version>
         <cxf.jdk.version>21</cxf.jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <site.deploy.url>scp://people.apache.org/www/cxf.apache.org/maven-site</site.deploy.url>
@@ -77,6 +77,23 @@
                 <enabled>false</enabled>
             </releases>
         </repository>
+        <!-- transitive dependency from WSS4J -->
+        <repository>
+            <id>B_shibboleth</id>
+            <name>OpenSAML</name>
+            <url>https://build.shibboleth.net/nexus/content/groups/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+        <repository>
+            <id>cxf-build-utils</id>
+            <name>cxf-build-utils</name>
+            <url>https://repository.apache.org/content/repositories/orgapachecxf-1233</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
@@ -87,6 +104,14 @@
             </snapshots>
             <releases>
                 <enabled>false</enabled>
+            </releases>
+        </pluginRepository>
+        <pluginRepository>
+            <id>cxf-build-utils</id>
+            <name>cxf-build-utils</name>
+            <url>https://repository.apache.org/content/repositories/orgapachecxf-1233</url>
+            <releases>
+                <enabled>true</enabled>
             </releases>
         </pluginRepository>
     </pluginRepositories>
@@ -173,7 +198,7 @@
         <module>integration</module>
         <module>maven-plugins</module>
         <module>services</module>
-<!--        <module>systests</module>-->
+        <!--        <module>systests</module>-->
     </modules>
     <profiles>
         <profile>
@@ -506,7 +531,7 @@
                         <maxmem>256M</maxmem>
                         <fork>${cxf.compiler.fork}</fork>
                         <encoding>UTF-8</encoding>
-                        
+
                         <!--compilerId>javac-with-errorprone</compilerId>
                         <forceJavacCompilerUse>true</forceJavacCompilerUse-->
                     </configuration>
@@ -739,6 +764,16 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <version>0.9.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <publishingServerId>central</publishingServerId>
+                    <deploymentName>cxf-tomee</deploymentName>
+                </configuration>
             </plugin>
         </plugins>
     </build>
