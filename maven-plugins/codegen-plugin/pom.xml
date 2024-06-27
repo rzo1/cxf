@@ -25,9 +25,9 @@
     <description>Apache CXF Code Generation Maven2 Plugins</description>
     <url>https://cxf.apache.org</url>
     <parent>
-        <groupId>org.apache.cxf</groupId>
+        <groupId>io.github.rzo1.org.apache.cxf</groupId>
         <artifactId>cxf-maven-plugins</artifactId>
-        <version>4.1.0-SNAPSHOT</version>
+        <version>4.1.0-tomee-M1</version>
     </parent>
     <properties>
         <cxf.module.name>org.apache.cxf.plugin.codegen</cxf.module.name>
@@ -69,37 +69,37 @@
             <version>${cxf.plexus-archiver.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-tools-common</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-tools-wsdlto-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-tools-wsdlto-databinding-jaxb</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-tools-wsdlto-frontend-jaxws</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-tools-wsdlto-frontend-javascript</artifactId>
             <version>${project.version}</version>
             <exclusions>
                 <exclusion>
-                    <groupId>org.apache.cxf</groupId>
+                    <groupId>io.github.rzo1.org.apache.cxf</groupId>
                     <artifactId>cxf-rt-frontend-simple</artifactId>
                 </exclusion>
             </exclusions>

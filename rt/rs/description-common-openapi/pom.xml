@@ -25,9 +25,9 @@
     <description>Apache CXF JAX-RS Service Description OpenAPI/Swagger Common</description>
     <url>https://cxf.apache.org</url>
     <parent>
-        <groupId>org.apache.cxf</groupId>
+        <groupId>io.github.rzo1.org.apache.cxf</groupId>
         <artifactId>cxf-parent</artifactId>
-        <version>4.1.0-SNAPSHOT</version>
+        <version>4.1.0-tomee-M1</version>
         <relativePath>../../../parent/pom.xml</relativePath>
     </parent>
     <properties>
@@ -39,7 +39,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxrs</artifactId>
         </dependency>
         <dependency>

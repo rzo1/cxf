@@ -26,7 +26,7 @@
     <parent>
         <groupId>org.apache.cxf.samples</groupId>
         <artifactId>cxf-samples</artifactId>
-        <version>4.1.0-SNAPSHOT</version>
+        <version>4.1.0-tomee-M1</version>
         <relativePath>../..</relativePath>
     </parent>
     <properties>
@@ -36,9 +36,9 @@
         <defaultGoal>install</defaultGoal>
         <plugins>
             <plugin>
-                <groupId>org.apache.cxf</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf</groupId>
                 <artifactId>cxf-codegen-plugin</artifactId>
-                <version>4.1.0-SNAPSHOT</version>
+                <version>4.1.0-tomee-M1</version>
                 <executions>
                     <execution>
                         <id>generate-sources</id>
@@ -125,15 +125,15 @@
     </profiles>
     <dependencies>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxws</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-bindings-corba</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-tools-common</artifactId>
         </dependency>
         <dependency>

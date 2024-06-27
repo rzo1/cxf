@@ -20,25 +20,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
         <artifactId>cxf-parent</artifactId>
-        <groupId>org.apache.cxf</groupId>
-        <version>4.1.0-SNAPSHOT</version>
+        <groupId>io.github.rzo1.org.apache.cxf</groupId>
+        <version>4.1.0-tomee-M1</version>
         <relativePath>../../parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.apache.cxf.systests</groupId>
+    <groupId>io.github.rzo1.org.apache.cxf.systests</groupId>
     <artifactId>cxf-systests-jaxws</artifactId>
     <name>Apache CXF JAX-WS System Tests</name>
     <description>Apache CXF JAX-WS System Tests</description>
     <url>https://cxf.apache.org</url>
     
     <properties>
-        <cxf.module.name>org.apache.cxf.systests.jaxws</cxf.module.name>
+        <cxf.module.name>io.github.rzo1.org.apache.cxf.systests.jaxws</cxf.module.name>
     </properties>
     
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.cxf</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf</groupId>
                 <artifactId>cxf-codegen-plugin</artifactId>
                 <version>${project.version}</version>
                 <executions>
@@ -95,22 +95,22 @@
             <artifactId>angus-mail</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-management</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-databinding-jaxb</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxws</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -123,42 +123,42 @@
             <artifactId>jakarta.xml.ws-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-bindings-soap</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-bindings-xml</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-databinding-aegis</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-transports-http</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-transports-http-jetty</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-transports-websocket</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-features-clustering</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-features-metrics</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -213,23 +213,23 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-transports-local</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-ws-addr</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-testutils</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-features-logging</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
@@ -323,7 +323,7 @@
             <id>async</id>
             <dependencies>
                 <dependency>
-                    <groupId>org.apache.cxf</groupId>
+                    <groupId>io.github.rzo1.org.apache.cxf</groupId>
                     <artifactId>cxf-rt-transports-http-hc</artifactId>
                     <version>${project.version}</version>
                 </dependency>

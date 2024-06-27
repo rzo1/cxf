@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.cxf.samples</groupId>
         <artifactId>cxf-samples</artifactId>
-        <version>4.1.0-SNAPSHOT</version>
+        <version>4.1.0-tomee-M1</version>
         <relativePath>../..</relativePath>
     </parent>
 
@@ -140,17 +140,17 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxrs</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-rs-client</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-transports-http-jetty</artifactId>
             <version>${project.version}</version>
         </dependency>

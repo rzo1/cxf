@@ -20,18 +20,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
         <artifactId>cxf-microprofile-tck</artifactId>
-        <groupId>org.apache.cxf.systests</groupId>
-        <version>4.1.0-SNAPSHOT</version>
+        <groupId>io.github.rzo1.org.apache.cxf.systests</groupId>
+        <version>4.1.0-tomee-M1</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.apache.cxf.systests</groupId>
+    <groupId>io.github.rzo1.org.apache.cxf.systests</groupId>
     <artifactId>cxf-systests-microprofile-async</artifactId>
     <name>Apache CXF MicroProfile Async Sys Tests</name>
     <description>Apache CXF System Tests - MicroProfile Rest Client Async Tests</description>
     <url>https://cxf.apache.org</url>
     <properties>
-        <cxf.module.name>org.apache.cxf.systests.microprofile.async</cxf.module.name>
+        <cxf.module.name>io.github.rzo1.org.apache.cxf.systests.microprofile.async</cxf.module.name>
     </properties>
         <dependencies>
             <dependency>
@@ -101,7 +101,7 @@
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>org.apache.cxf</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf</groupId>
                 <artifactId>cxf-rt-rs-mp-client</artifactId>
                 <version>${project.version}</version>
                 <scope>test</scope>

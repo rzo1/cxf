@@ -26,8 +26,8 @@
     <url>https://cxf.apache.org</url>
     <parent>
         <artifactId>cxf-rt-rs-security-oauth-parent</artifactId>
-        <groupId>org.apache.cxf</groupId>
-        <version>4.1.0-SNAPSHOT</version>
+        <groupId>io.github.rzo1.org.apache.cxf</groupId>
+        <version>4.1.0-tomee-M1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <properties>
@@ -38,12 +38,12 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-rs-security-oauth2</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-rs-security-xml</artifactId>
             <version>${project.version}</version>
         </dependency>

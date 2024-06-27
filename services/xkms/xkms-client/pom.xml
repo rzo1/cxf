@@ -19,15 +19,15 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.apache.cxf.services.xkms</groupId>
+    <groupId>io.github.rzo1.org.apache.cxf.services.xkms</groupId>
     <artifactId>cxf-services-xkms-client</artifactId>
     <packaging>bundle</packaging>
     <name>Apache CXF XKMS Client</name>
     <url>https://cxf.apache.org</url>
     <parent>
-        <groupId>org.apache.cxf</groupId>
+        <groupId>io.github.rzo1.org.apache.cxf</groupId>
         <artifactId>cxf-parent</artifactId>
-        <version>4.1.0-SNAPSHOT</version>
+        <version>4.1.0-tomee-M1</version>
         <relativePath>../../../parent/pom.xml</relativePath>
     </parent>
     <properties>
@@ -60,17 +60,17 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>org.apache.cxf.services.xkms</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.xkms</groupId>
             <artifactId>cxf-services-xkms-common</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxws</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -81,7 +81,7 @@
             <classifier>jakarta</classifier>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-ws-security</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -90,7 +90,7 @@
             <artifactId>wss4j-ws-security-dom</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-testutils</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
