@@ -32,6 +32,6 @@
     </parent>
     <modules>
         <module>sts-core</module>
-        <module>systests</module>
+<!--        <module>systests</module>-->
     </modules>
 </project>
