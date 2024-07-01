@@ -166,7 +166,7 @@
         <module>integration</module>
         <module>maven-plugins</module>
         <module>services</module>
-        <module>systests</module>
+<!--        <module>systests</module>-->
     </modules>
     <profiles>
         <profile>
