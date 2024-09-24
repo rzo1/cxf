@@ -28,7 +28,7 @@
         <groupId>io.github.rzo1.org.apache.cxf</groupId>
         <artifactId>cxf</artifactId>
         <relativePath>../pom.xml</relativePath>
-        <version>4.1.0-tomee-M1</version>
+        <version>4.1.0-tomee-M2</version>
     </parent>
     <modules>
         <module>sts</module>

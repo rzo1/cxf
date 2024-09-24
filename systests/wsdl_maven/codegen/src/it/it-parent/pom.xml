@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.rzo1.org.apache.cxf</groupId>
     <artifactId>codegen-it-parent</artifactId>
-    <version>4.1.0-tomee-M1</version>
+    <version>4.1.0-tomee-M2</version>
     <packaging>pom</packaging>
     <properties>
         <cxf.version>@project.version@</cxf.version>
