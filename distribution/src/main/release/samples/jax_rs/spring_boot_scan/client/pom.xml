@@ -23,13 +23,13 @@
     <dependencies>
         <!-- CXF JAX-RS Client -->
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-rs-client</artifactId>
             <version>4.2.0-tomee-m0-ce15546</version>
         </dependency>
         <!-- CXF FailoverFeature - pluggable with various strategies -->
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-features-clustering</artifactId>
             <version>4.2.0-tomee-m0-ce15546</version>
         </dependency>

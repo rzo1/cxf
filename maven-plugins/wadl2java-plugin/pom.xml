@@ -25,7 +25,7 @@
     <description>Apache CXF WADL2Java Code Generation Maven2 Plugin</description>
     <url>https://cxf.apache.org</url>
     <parent>
-        <groupId>org.apache.cxf</groupId>
+        <groupId>io.github.rzo1.org.apache.cxf</groupId>
         <artifactId>cxf-maven-plugins</artifactId>
         <version>4.2.0-tomee-m0-ce15546</version>
     </parent>
@@ -74,12 +74,12 @@
             <version>${cxf.plexus-archiver.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-tools-common</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-tools-wadlto-jaxrs</artifactId>
             <version>${project.version}</version>
         </dependency>

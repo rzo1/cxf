@@ -25,7 +25,7 @@
     <description>Apache CXF Distribution</description>
     <url>https://cxf.apache.org</url>
     <parent>
-        <groupId>org.apache.cxf</groupId>
+        <groupId>io.github.rzo1.org.apache.cxf</groupId>
         <artifactId>cxf-parent</artifactId>
         <version>4.2.0-tomee-m0-ce15546</version>
         <relativePath>../parent</relativePath>
@@ -97,27 +97,27 @@
             <version>${cxf.xjc-utils.version}</version>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}.xjcplugins</groupId>
+            <groupId>org.apache.cxf.xjcplugins</groupId>
             <artifactId>cxf-xjc-dv</artifactId>
             <version>${cxf.xjc-utils.version}</version>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}.xjcplugins</groupId>
+            <groupId>org.apache.cxf.xjcplugins</groupId>
             <artifactId>cxf-xjc-ts</artifactId>
             <version>${cxf.xjc-utils.version}</version>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}.xjcplugins</groupId>
+            <groupId>org.apache.cxf.xjcplugins</groupId>
             <artifactId>cxf-xjc-bug671</artifactId>
             <version>${cxf.xjc-utils.version}</version>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}.xjcplugins</groupId>
+            <groupId>org.apache.cxf.xjcplugins</groupId>
             <artifactId>cxf-xjc-boolean</artifactId>
             <version>${cxf.xjc-utils.version}</version>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}.xjcplugins</groupId>
+            <groupId>org.apache.cxf.xjcplugins</groupId>
             <artifactId>cxf-xjc-javadoc</artifactId>
             <version>${cxf.xjc-utils.version}</version>
         </dependency>

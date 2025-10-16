@@ -43,12 +43,12 @@
             <artifactId>jcl-over-slf4j</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-features-logging</artifactId>
             <version>4.2.0-tomee-m0-ce15546</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-spring-boot-starter-jaxws</artifactId>
             <version>4.2.0-tomee-m0-ce15546</version>
             <exclusions>
@@ -83,7 +83,7 @@
             <version>7.3.3.Final</version>
             <exclusions>
                 <exclusion>
-                    <groupId>org.apache.cxf</groupId>
+                    <groupId>io.github.rzo1.org.apache.cxf</groupId>
                     <artifactId>*</artifactId>
                 </exclusion>
             </exclusions>

@@ -25,7 +25,7 @@
     <description>Apache CXF CORBA Tools Maven2 Plugins</description>
     <url>https://cxf.apache.org</url>
     <parent>
-        <groupId>org.apache.cxf</groupId>
+        <groupId>io.github.rzo1.org.apache.cxf</groupId>
         <artifactId>cxf-maven-plugins</artifactId>
         <version>4.2.0-tomee-m0-ce15546</version>
     </parent>
@@ -73,7 +73,7 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-tools-corba</artifactId>
             <version>${project.version}</version>
         </dependency>

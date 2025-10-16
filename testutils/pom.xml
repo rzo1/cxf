@@ -25,7 +25,7 @@
     <description>Apache CXF Test Utilities</description>
     <url>https://cxf.apache.org</url>
     <parent>
-        <groupId>org.apache.cxf</groupId>
+        <groupId>io.github.rzo1.org.apache.cxf</groupId>
         <artifactId>cxf-parent</artifactId>
         <version>4.2.0-tomee-m0-ce15546</version>
         <relativePath>../parent/pom.xml</relativePath>
@@ -60,12 +60,12 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-wsdl</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -165,7 +165,7 @@
                 </executions>
             </plugin>
             <!--plugin>
-                <groupId>org.apache.cxf</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf</groupId>
                 <artifactId>cxf-wsdl-validator-plugin</artifactId>
                 <version>${project.version}</version>
                 <executions>
@@ -178,7 +178,7 @@
                 </executions>
             </plugin-->
             <plugin>
-                <groupId>org.apache.cxf</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf</groupId>
                 <artifactId>cxf-codegen-plugin</artifactId>
                 <version>${project.version}</version>
                 <dependencies>

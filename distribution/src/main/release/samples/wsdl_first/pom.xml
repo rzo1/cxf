@@ -87,7 +87,7 @@
         </pluginManagement>
         <plugins>
             <plugin>
-                <groupId>org.apache.cxf</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf</groupId>
                 <artifactId>cxf-codegen-plugin</artifactId>
                 <version>4.2.0-tomee-m0-ce15546</version>
                 <executions>
@@ -139,7 +139,7 @@
             </build>
             <dependencies>
                 <dependency>
-                    <groupId>org.apache.cxf</groupId>
+                    <groupId>io.github.rzo1.org.apache.cxf</groupId>
                     <artifactId>cxf-rt-transports-http-jetty</artifactId>
                     <version>4.2.0-tomee-m0-ce15546</version>
                 </dependency>
@@ -169,7 +169,7 @@
             </build>
             <dependencies>
                 <dependency>
-                    <groupId>org.apache.cxf</groupId>
+                    <groupId>io.github.rzo1.org.apache.cxf</groupId>
                     <artifactId>cxf-rt-transports-http-jetty</artifactId>
                     <version>4.2.0-tomee-m0-ce15546</version>
                 </dependency>
@@ -199,7 +199,7 @@
             </build>
             <dependencies>
                 <dependency>
-                    <groupId>org.apache.cxf</groupId>
+                    <groupId>io.github.rzo1.org.apache.cxf</groupId>
                     <artifactId>cxf-rt-transports-http-netty-server</artifactId>
                     <version>4.2.0-tomee-m0-ce15546</version>
                 </dependency>
@@ -258,7 +258,7 @@
             </build>
             <dependencies>
                 <dependency>
-                    <groupId>org.apache.cxf</groupId>
+                    <groupId>io.github.rzo1.org.apache.cxf</groupId>
                     <artifactId>cxf-rt-transports-http-netty-client</artifactId>
                     <version>4.2.0-tomee-m0-ce15546</version>
                 </dependency>
@@ -267,22 +267,22 @@
     </profiles>
     <dependencies>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxws</artifactId>
             <version>4.2.0-tomee-m0-ce15546</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-transports-http</artifactId>
             <version>4.2.0-tomee-m0-ce15546</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-management</artifactId>
             <version>4.2.0-tomee-m0-ce15546</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-features-metrics</artifactId>
             <version>4.2.0-tomee-m0-ce15546</version>
         </dependency>

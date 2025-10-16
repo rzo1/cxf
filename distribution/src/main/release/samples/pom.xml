@@ -64,7 +64,7 @@
             <artifactId>jcl-over-slf4j</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-features-logging</artifactId>
         </dependency>
     </dependencies>
@@ -167,14 +167,14 @@
             to make sure the same versions are used for the samples
             -->
             <dependency>
-                <groupId>org.apache.cxf</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf</groupId>
                 <artifactId>cxf-parent</artifactId>
                 <version>4.2.0-tomee-m0-ce15546</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.apache.cxf</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf</groupId>
                 <artifactId>cxf</artifactId>
                 <version>4.2.0-tomee-m0-ce15546</version>
                 <type>pom</type>
