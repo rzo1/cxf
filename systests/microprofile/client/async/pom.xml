@@ -100,7 +100,7 @@
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>org.apache.cxf</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf</groupId>
                 <artifactId>cxf-rt-rs-mp-client</artifactId>
                 <version>${project.version}</version>
                 <scope>test</scope>

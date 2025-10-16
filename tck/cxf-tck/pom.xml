@@ -55,7 +55,7 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.apache.cxf</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
                 <version>${cxf.version}</version>
                 <type>pom</type>
@@ -144,43 +144,43 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-core</artifactId>
             <scope>test</scope>
         </dependency>
 
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-transports-http</artifactId>
             <scope>test</scope>
         </dependency> 
 
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-transports-http-jetty</artifactId>
             <scope>test</scope>
         </dependency>
 
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxrs</artifactId>
             <scope>test</scope>
         </dependency>
 
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-rs-sse</artifactId>
             <scope>test</scope>
         </dependency>
 
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-rs-client</artifactId>
             <scope>test</scope>
         </dependency>
 
         <dependency>
-            <groupId>org.apache.cxf</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf</groupId>
             <artifactId>cxf-rt-rs-extension-providers</artifactId>
             <scope>test</scope>
         </dependency>
@@ -254,7 +254,7 @@
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
-                                    <groupId>org.apache.cxf</groupId>
+                                    <groupId>io.github.rzo1.org.apache.cxf</groupId>
                                     <artifactId>cxf-rt-rs-client</artifactId>
                                     <version>${cxf.version}</version>
                                     <type>jar</type>
@@ -262,7 +262,7 @@
                                     <outputDirectory>${glassfish.home}/glassfish/lib</outputDirectory>
                                 </artifactItem>
                                 <artifactItem>
-                                    <groupId>org.apache.cxf</groupId>
+                                    <groupId>io.github.rzo1.org.apache.cxf</groupId>
                                     <artifactId>cxf-core</artifactId>
                                     <version>${cxf.version}</version>
                                     <type>jar</type>
@@ -270,7 +270,7 @@
                                     <outputDirectory>${glassfish.home}/glassfish/lib</outputDirectory>
                                 </artifactItem>
                                 <artifactItem>
-                                    <groupId>org.apache.cxf</groupId>
+                                    <groupId>io.github.rzo1.org.apache.cxf</groupId>
                                     <artifactId>cxf-rt-frontend-jaxrs</artifactId>
                                     <version>${cxf.version}</version>
                                     <type>jar</type>
@@ -278,7 +278,7 @@
                                     <outputDirectory>${glassfish.home}/glassfish/lib</outputDirectory>
                                 </artifactItem>
                                 <artifactItem>
-                                    <groupId>org.apache.cxf</groupId>
+                                    <groupId>io.github.rzo1.org.apache.cxf</groupId>
                                     <artifactId>cxf-rt-transports-http</artifactId>
                                     <version>${cxf.version}</version>
                                     <type>jar</type>
@@ -286,7 +286,7 @@
                                     <outputDirectory>${glassfish.home}/glassfish/lib</outputDirectory>
                                 </artifactItem>
                                 <artifactItem>
-                                    <groupId>org.apache.cxf</groupId>
+                                    <groupId>io.github.rzo1.org.apache.cxf</groupId>
                                     <artifactId>cxf-rt-rs-sse</artifactId>
                                     <version>${cxf.version}</version>
                                     <type>jar</type>
@@ -294,7 +294,7 @@
                                     <outputDirectory>${glassfish.home}/glassfish/lib</outputDirectory>
                                 </artifactItem>
                                 <artifactItem>
-                                    <groupId>org.apache.cxf</groupId>
+                                    <groupId>io.github.rzo1.org.apache.cxf</groupId>
                                     <artifactId>cxf-rt-rs-extension-providers</artifactId>
                                     <version>${cxf.version}</version>
                                     <type>jar</type>
