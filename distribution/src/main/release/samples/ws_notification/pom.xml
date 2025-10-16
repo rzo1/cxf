@@ -100,7 +100,7 @@
             <artifactId>cxf-rt-ws-policy</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.wsn</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.wsn</groupId>
             <artifactId>cxf-services-wsn-core</artifactId>
         </dependency>
     </dependencies>

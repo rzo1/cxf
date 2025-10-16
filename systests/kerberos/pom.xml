@@ -166,7 +166,7 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.sts</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.sts</groupId>
             <artifactId>cxf-services-sts-core</artifactId>
             <version>${project.version}</version>
         </dependency>

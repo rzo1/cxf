@@ -139,7 +139,7 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.sts</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.sts</groupId>
             <artifactId>cxf-services-sts-core</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -163,7 +163,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.xkms</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.xkms</groupId>
             <artifactId>cxf-services-xkms-x509-repo-ldap</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>

@@ -19,7 +19,7 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.apache.cxf.services.sts.systests</groupId>
+    <groupId>io.github.rzo1.org.apache.cxf.services.sts.systests</groupId>
     <artifactId>cxf-services-sts-systests-basic</artifactId>
     <packaging>jar</packaging>
     <name>Apache CXF STS basic systests</name>
@@ -46,7 +46,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.sts</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.sts</groupId>
             <artifactId>cxf-services-sts-core</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
