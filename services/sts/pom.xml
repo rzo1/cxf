@@ -19,13 +19,13 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.apache.cxf.services.sts</groupId>
+    <groupId>io.github.rzo1.org.apache.cxf.services.sts</groupId>
     <artifactId>cxf-services-sts</artifactId>
     <packaging>pom</packaging>
     <name>Apache CXF STS service</name>
     <url>https://cxf.apache.org</url>
     <parent>
-        <groupId>org.apache.cxf.services</groupId>
+        <groupId>io.github.rzo1.org.apache.cxf.services</groupId>
         <artifactId>cxf-services</artifactId>
         <version>4.2.0-tomee-m0-ce15546</version>
         <relativePath>../pom.xml</relativePath>

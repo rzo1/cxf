@@ -450,62 +450,62 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.sts</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.sts</groupId>
             <artifactId>cxf-services-sts-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.ws-discovery</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.ws-discovery</groupId>
             <artifactId>cxf-services-ws-discovery-api</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.ws-discovery</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.ws-discovery</groupId>
             <artifactId>cxf-services-ws-discovery-service</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.wsn</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.wsn</groupId>
             <artifactId>cxf-services-wsn-api</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.wsn</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.wsn</groupId>
             <artifactId>cxf-services-wsn-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.wsn</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.wsn</groupId>
             <artifactId>cxf-services-wsn-osgi</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.xkms</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.xkms</groupId>
             <artifactId>cxf-services-xkms-client</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.xkms</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.xkms</groupId>
             <artifactId>cxf-services-xkms-common</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.xkms</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.xkms</groupId>
             <artifactId>cxf-services-xkms-service</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.xkms</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.xkms</groupId>
             <artifactId>cxf-services-xkms-x509-handlers</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.xkms</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.xkms</groupId>
             <artifactId>cxf-services-xkms-x509-repo-ldap</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.xkms</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.xkms</groupId>
             <artifactId>cxf-services-xkms-war</artifactId>
             <version>${project.version}</version>
             <type>war</type>
@@ -756,7 +756,7 @@
             <version>${project.version}</version>
          </dependency>
          <dependency>
-            <groupId>org.apache.cxf.services.sts.systests</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.sts.systests</groupId>
             <artifactId>cxf-services-sts-systests-basic</artifactId>
             <version>${project.version}</version>
          </dependency>

@@ -193,10 +193,10 @@
         <module>parent</module>
         <module>core</module>
         <module>tools</module>
-        <module>testutils</module>
+<!--        <module>testutils</module>-->
         <module>rt</module>
         <module>integration</module>
-        <module>maven-plugins</module>
+<!--        <module>maven-plugins</module>-->
         <module>services</module>
         <!--        <module>systests</module>-->
     </modules>

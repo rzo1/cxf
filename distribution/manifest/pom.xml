@@ -281,27 +281,27 @@
         </dependency>
         <!-- services jars -->
         <dependency>
-            <groupId>org.apache.cxf.services.sts</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.sts</groupId>
             <artifactId>cxf-services-sts-core</artifactId>
             <version>4.2.0-tomee-m0-ce15546</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.wsn</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.wsn</groupId>
             <artifactId>cxf-services-wsn-api</artifactId>
             <version>4.2.0-tomee-m0-ce15546</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.wsn</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.wsn</groupId>
             <artifactId>cxf-services-wsn-core</artifactId>
             <version>4.2.0-tomee-m0-ce15546</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.ws-discovery</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.ws-discovery</groupId>
             <artifactId>cxf-services-ws-discovery-api</artifactId>
             <version>4.2.0-tomee-m0-ce15546</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.services.ws-discovery</groupId>
+            <groupId>io.github.rzo1.org.apache.cxf.services.ws-discovery</groupId>
             <artifactId>cxf-services-ws-discovery-service</artifactId>
             <version>4.2.0-tomee-m0-ce15546</version>
         </dependency>

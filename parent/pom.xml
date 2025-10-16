@@ -745,22 +745,22 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.cxf.services.sts.systests</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf.services.sts.systests</groupId>
                 <artifactId>cxf-services-sts-systests-advanced</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.cxf.services.sts.systests</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf.services.sts.systests</groupId>
                 <artifactId>cxf-services-sts-systests-itests</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.cxf.services.sts.systests</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf.services.sts.systests</groupId>
                 <artifactId>cxf-services-sts-systests-osgi</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.cxf.services.xkms</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf.services.xkms</groupId>
                 <artifactId>cxf-services-xkms-itests</artifactId>
                 <version>${project.version}</version>
             </dependency>

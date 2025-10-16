@@ -19,7 +19,7 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.apache.cxf.services.sts</groupId>
+    <groupId>io.github.rzo1.org.apache.cxf.services.sts</groupId>
     <artifactId>cxf-services-sts-core</artifactId>
     <packaging>bundle</packaging>
     <name>Apache CXF STS Core</name>
@@ -32,7 +32,7 @@
     </parent>
     <properties>
         <cxf.module.name>org.apache.cxf.sts.core</cxf.module.name>
-        <cxf.osgi.symbolic.name>org.apache.cxf.services.sts.core</cxf.osgi.symbolic.name>
+        <cxf.osgi.symbolic.name>io.github.rzo1.org.apache.cxf.services.sts.core</cxf.osgi.symbolic.name>
         <cxf.osgi.export>
             org.apache.cxf.sts.*;version=${cxf.osgi.version.clean}
         </cxf.osgi.export>
