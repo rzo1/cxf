@@ -21,7 +21,7 @@
     <parent>
         <artifactId>cxf-parent</artifactId>
         <groupId>io.github.rzo1.org.apache.cxf</groupId>
-        <version>4.2.0-SNAPSHOT</version>
+        <version>4.2.0-tomee-m0-071068f</version>
         <relativePath>../../parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>

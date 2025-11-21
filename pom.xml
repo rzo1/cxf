@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.rzo1.org.apache.cxf</groupId>
     <artifactId>cxf</artifactId>
-    <version>4.2.0-SNAPSHOT</version>
+    <version>4.2.0-tomee-m0-071068f</version>
     <name>Apache CXF</name>
     <description>Apache CXF is an open-source services framework that aids in 
     the development of services using front-end programming APIs, like JAX-WS 
@@ -194,10 +194,10 @@
         <module>parent</module>
         <module>core</module>
         <module>tools</module>
-<!--        <module>testutils</module>-->
+        <module>testutils</module>
         <module>rt</module>
         <module>integration</module>
-<!--        <module>maven-plugins</module>-->
+        <module>maven-plugins</module>
         <module>services</module>
         <!--        <module>systests</module>-->
     </modules>
