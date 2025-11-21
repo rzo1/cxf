@@ -145,7 +145,7 @@ public class HttpClientHTTPConduit extends URLConnectionHTTPConduit {
                 if (client instanceof AutoCloseable) {
                     try {
                         try {
-                            client.shutdownNow();
+                           // client.shutdownNow();
                         } catch (Exception e) {
                             //ignore
                         }
