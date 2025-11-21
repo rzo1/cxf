@@ -112,7 +112,7 @@
             <version>${cxf.xjc-utils.version}</version>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}.xjc-utils</groupId>
+            <groupId>org.apache.cxf.xjc-utils</groupId>
             <artifactId>cxf-xjc-runtime</artifactId>
             <version>${cxf.xjc-utils.version}</version>
         </dependency>

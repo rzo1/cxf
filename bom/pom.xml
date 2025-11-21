@@ -460,17 +460,17 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.cxf.archetype</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf.archetype</groupId>
                 <artifactId>cxf-jaxws-javafirst</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.cxf.archetype</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf.archetype</groupId>
                 <artifactId>cxf-jaxrs-service</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.cxf.archetype</groupId>
+                <groupId>io.github.rzo1.org.apache.cxf.archetype</groupId>
                 <artifactId>cxf-jaxws-wsdlfirst</artifactId>
                 <version>${project.version}</version>
             </dependency>
