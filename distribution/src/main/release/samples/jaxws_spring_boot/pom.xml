@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.apache.cxf.samples</groupId>
         <artifactId>cxf-samples</artifactId>
-        <version>4.2.0-tomee-m0-ce15546</version>
+        <version>4.2.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
     <artifactId>spring-boot-sample-ws-cxf</artifactId>
@@ -13,9 +13,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.github.rzo1.org.apache.cxf</groupId>
+            <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-spring-boot-starter-jaxws</artifactId>
-            <version>4.2.0-tomee-m0-ce15546</version>
+            <version>4.2.0-SNAPSHOT</version>
             <exclusions><!-- CXF uses java.util.logging by default -->
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
@@ -29,9 +29,9 @@
             <version>${cxf.spring.boot.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.github.rzo1.org.apache.cxf</groupId>
+            <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-features-metrics</artifactId>
-            <version>4.2.0-tomee-m0-ce15546</version>
+            <version>4.2.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>

@@ -25,9 +25,9 @@
     <description>Apache CXF Command Line Tools Common</description>
     <url>https://cxf.apache.org</url>
     <parent>
-        <groupId>io.github.rzo1.org.apache.cxf</groupId>
+        <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-parent</artifactId>
-        <version>4.2.0-tomee-m0-ce15546</version>
+        <version>4.2.0-SNAPSHOT</version>
         <relativePath>../../parent/pom.xml</relativePath>
     </parent>
     <properties>
@@ -59,7 +59,7 @@
             <artifactId>jaxb-runtime</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.github.rzo1.org.apache.cxf</groupId>
+            <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-core</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -74,7 +74,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>io.github.rzo1.org.apache.cxf</groupId>
+            <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-wsdl</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
@@ -101,5 +101,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

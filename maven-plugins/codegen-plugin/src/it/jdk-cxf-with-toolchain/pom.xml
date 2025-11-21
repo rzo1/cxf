@@ -8,15 +8,15 @@
   <packaging>jar</packaging>
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-    <maven.compiler.source>21</maven.compiler.source>
-    <maven.compiler.target>21</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
   </properties>
 
   <dependencies>
       <dependency>
         <groupId>jakarta.annotation</groupId>
         <artifactId>jakarta.annotation-api</artifactId>
-        <version>2.1.1</version>
+        <version>3.0.0</version>
       </dependency>
       <dependency>
         <groupId>jakarta.xml.ws</groupId>
@@ -53,7 +53,7 @@
         </executions>
       </plugin>
       <plugin>
-        <groupId>io.github.rzo1.org.apache.cxf</groupId>
+        <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-codegen-plugin</artifactId>
         <version>@project.version@</version>
         <executions>

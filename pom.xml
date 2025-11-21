@@ -19,13 +19,13 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.github.rzo1.org.apache.cxf</groupId>
+    <groupId>org.apache.cxf</groupId>
     <artifactId>cxf</artifactId>
-    <version>4.2.0-tomee-m0-ce15546</version>
+    <version>4.2.0-SNAPSHOT</version>
     <name>Apache CXF</name>
-    <description>Apache CXF is an open-source services framework that aids in
-        the development of services using front-end programming APIs, like JAX-WS
-        and JAX-RS.</description>
+    <description>Apache CXF is an open-source services framework that aids in 
+    the development of services using front-end programming APIs, like JAX-WS 
+    and JAX-RS.</description>
     <url>https://cxf.apache.org</url>
     <packaging>pom</packaging>
     <scm>
@@ -40,12 +40,12 @@
     </issueManagement>
     <properties>
         <cxf.compiler.fork>false</cxf.compiler.fork>
-        <cxf.build-utils.version>4.1.2</cxf.build-utils.version>
-        <cxf.xjc-utils.version>4.1.0</cxf.xjc-utils.version>
-        <cxf.jdk.version>21</cxf.jdk.version>
+        <cxf.build-utils.version>4.1.3-SNAPSHOT</cxf.build-utils.version>
+        <cxf.xjc-utils.version>4.1.1</cxf.xjc-utils.version>
+        <cxf.jdk.version>17</cxf.jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <site.deploy.url>scp://people.apache.org/www/cxf.apache.org/maven-site</site.deploy.url>
-        <maven-owasp-plugin-version>12.1.8</maven-owasp-plugin-version>
+        <maven-owasp-plugin-version>12.1.9</maven-owasp-plugin-version>
         <preparationGoals>clean install</preparationGoals>
     </properties>
     <distributionManagement>
@@ -77,23 +77,6 @@
                 <enabled>false</enabled>
             </releases>
         </repository>
-        <!-- transitive dependency from WSS4J -->
-        <repository>
-            <id>B_shibboleth</id>
-            <name>OpenSAML</name>
-            <url>https://build.shibboleth.net/nexus/content/groups/public</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </repository>
-        <repository>
-            <id>cxf-build-utils</id>
-            <name>cxf-build-utils</name>
-            <url>https://repository.apache.org/content/repositories/orgapachecxf-1233</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
@@ -104,14 +87,6 @@
             </snapshots>
             <releases>
                 <enabled>false</enabled>
-            </releases>
-        </pluginRepository>
-        <pluginRepository>
-            <id>cxf-build-utils</id>
-            <name>cxf-build-utils</name>
-            <url>https://repository.apache.org/content/repositories/orgapachecxf-1233</url>
-            <releases>
-                <enabled>true</enabled>
             </releases>
         </pluginRepository>
     </pluginRepositories>
@@ -193,12 +168,12 @@
         <module>parent</module>
         <module>core</module>
         <module>tools</module>
-<!--        <module>testutils</module>-->
+        <module>testutils</module>
         <module>rt</module>
         <module>integration</module>
-<!--        <module>maven-plugins</module>-->
+        <module>maven-plugins</module>
         <module>services</module>
-        <!--        <module>systests</module>-->
+        <module>systests</module>
     </modules>
     <profiles>
         <profile>
@@ -485,7 +460,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-release-plugin</artifactId>
-                    <version>3.1.1</version>
+                    <version>3.2.0</version>
                     <configuration>
                         <useReleaseProfile>false</useReleaseProfile>
                         <preparationGoals>${preparationGoals}</preparationGoals>
@@ -531,7 +506,7 @@
                         <maxmem>256M</maxmem>
                         <fork>${cxf.compiler.fork}</fork>
                         <encoding>UTF-8</encoding>
-
+                        
                         <!--compilerId>javac-with-errorprone</compilerId>
                         <forceJavacCompilerUse>true</forceJavacCompilerUse-->
                     </configuration>
@@ -551,12 +526,12 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-antrun-plugin</artifactId>
-                    <version>3.1.0</version>
+                    <version>3.2.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
-                    <version>3.4.2</version>
+                    <version>3.5.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -594,7 +569,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-plugin-plugin</artifactId>
-                    <version>3.15.1</version>
+                    <version>3.15.2</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -611,7 +586,7 @@
                 <plugin>
                     <groupId>org.apache.rat</groupId>
                     <artifactId>apache-rat-plugin</artifactId>
-                    <version>0.16.1</version>
+                    <version>0.17</version>
                     <configuration>
                         <numUnapprovedLicenses>350</numUnapprovedLicenses>
                         <excludeSubProjects>false</excludeSubProjects>
@@ -726,7 +701,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
-                    <version>3.4.0</version>
+                    <version>3.5.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.cyclonedx</groupId>
@@ -764,16 +739,6 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.sonatype.central</groupId>
-                <artifactId>central-publishing-maven-plugin</artifactId>
-                <version>0.9.0</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <publishingServerId>central</publishingServerId>
-                    <deploymentName>cxf-tomee</deploymentName>
-                </configuration>
             </plugin>
         </plugins>
     </build>

@@ -25,16 +25,16 @@
     <parent>
         <groupId>org.apache.cxf.samples</groupId>
         <artifactId>cxf-samples</artifactId>
-        <version>4.2.0-tomee-m0-ce15546</version>
+        <version>4.2.0-SNAPSHOT</version>
         <relativePath>../..</relativePath>
     </parent>
 
     <build>
         <plugins>
             <plugin>
-                <groupId>io.github.rzo1.org.apache.cxf</groupId>
+                <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-codegen-plugin</artifactId>
-                <version>4.2.0-tomee-m0-ce15546</version>
+                <version>4.2.0-SNAPSHOT</version>
                 <executions>
                     <execution>
                         <id>generate-sources</id>
@@ -196,29 +196,35 @@
     </profiles>
     <dependencies>
         <dependency>
-            <groupId>io.github.rzo1.org.apache.cxf</groupId>
+            <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxws</artifactId>
-            <version>4.2.0-tomee-m0-ce15546</version>
+            <version>4.2.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>io.github.rzo1.org.apache.cxf</groupId>
+            <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-transports-http</artifactId>
-            <version>4.2.0-tomee-m0-ce15546</version>
+            <version>4.2.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>io.github.rzo1.org.apache.cxf</groupId>
+            <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-transports-http-jetty</artifactId>
-            <version>4.2.0-tomee-m0-ce15546</version>
+            <version>4.2.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>io.github.rzo1.org.apache.cxf</groupId>
+            <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-ws-security</artifactId>
-            <version>4.2.0-tomee-m0-ce15546</version>
+            <version>4.2.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>io.github.rzo1.org.apache.cxf</groupId>
+            <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-ws-policy</artifactId>
-            <version>4.2.0-tomee-m0-ce15546</version>
+            <version>4.2.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-testutils</artifactId>
+            <version>4.2.0-SNAPSHOT</version>
+            <classifier>keys</classifier>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>

@@ -19,16 +19,16 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.github.rzo1.org.apache.cxf.services.wsn</groupId>
+    <groupId>org.apache.cxf.services.wsn</groupId>
     <artifactId>cxf-services-wsn-core</artifactId>
     <packaging>bundle</packaging>
     <name>Apache CXF WSN Core</name>
     <description>Apache CXF WSN Core Service</description>
     <url>https://cxf.apache.org</url>
     <parent>
-        <groupId>io.github.rzo1.org.apache.cxf</groupId>
+        <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-parent</artifactId>
-        <version>4.2.0-tomee-m0-ce15546</version>
+        <version>4.2.0-SNAPSHOT</version>
         <relativePath>../../../parent/pom.xml</relativePath>
     </parent>
     <properties>
@@ -50,12 +50,12 @@
             <artifactId>artemis-jakarta-server</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.github.rzo1.org.apache.cxf</groupId>
+            <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.github.rzo1.org.apache.cxf.services.wsn</groupId>
+            <groupId>org.apache.cxf.services.wsn</groupId>
             <artifactId>cxf-services-wsn-api</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -64,7 +64,7 @@
             <artifactId>saaj-impl</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.github.rzo1.org.apache.cxf</groupId>
+            <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxws</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
@@ -76,7 +76,7 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>io.github.rzo1.org.apache.cxf</groupId>
+            <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-transports-http-jetty</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
@@ -135,7 +135,7 @@
                 <configuration>
                     <instructions>
                         <Require-Bundle>
-                            io.github.rzo1.org.apache.cxf.services.wsn.cxf-services-wsn-api
+                            org.apache.cxf.services.wsn.cxf-services-wsn-api
                         </Require-Bundle>
                         <Import-Package>
                             !org.apache.cxf.wsn*,
